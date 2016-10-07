@@ -9,3 +9,4 @@ let bar = `hello${foo}`;
 function addAll() {
     return Array.from(arguments).reduce((a, b) => a + b);
 }
+alert(addAll(1,2,3));
